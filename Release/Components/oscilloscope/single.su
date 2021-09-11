@@ -1,0 +1,18 @@
+base.h:23:18:virtual void core::Component::init()	0	static
+engine.h:26:23:void __tcf_0()	0	static
+event.h:37:10:virtual void core::EmptyEvent::execute(core::AbstractEventQueue*)	4	static
+single.h:20:10:void osc::Single::idle_(uint16_t)	0	static
+single.cpp:30:6:void osc::Single::probing_(uint16_t)	0	static
+single.cpp:45:6:void osc::Single::first_(uint16_t)	8	static
+single.h:9:7:osc::Single::~Single()	0	static
+event.h:27:7:core::EmptyEvent::~EmptyEvent()	0	static
+single.h:9:7:virtual osc::Single::~Single()	8	static
+event.h:27:7:virtual core::EmptyEvent::~EmptyEvent()	8	static
+controller.h:9:1:void __tcf_2()	0	static
+event-queue.h:29:17:void core::EventQueue::post(uint8_t)	0	static,ignoring_inline_asm
+engine.h:24:20:static core::Engine& core::Engine::instance()	8	static
+single.cpp:56:6:void osc::Single::adding_(uint16_t)	24	static
+controller.h:9:1:static console::Controller& console::Controller::instance()	24	static
+single.cpp:8:6:void osc::Single::thresholding_(uint16_t)	16	static
+single.cpp:82:6:void osc::Single::flush_()	24	static
+single.cpp:4:1:osc::Single::Single(uint8_t)	16	static

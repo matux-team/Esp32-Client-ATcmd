@@ -1,0 +1,6 @@
+engine.h:26:23:void __tcf_0()	0	static
+engine.h:24:20:static core::Engine& core::Engine::instance()	8	static
+task.cpp:4:1:core::Task::Task(core::Component*, core::Task::Handler)	16	static
+task.cpp:9:6:void core::Task::start(uint32_t, int32_t)	16	static
+task.cpp:18:6:void core::Task::stop()	8	static
+task.cpp:24:6:void core::Task::run_()	16	static

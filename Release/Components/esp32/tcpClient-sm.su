@@ -1,0 +1,35 @@
+base.h:23:18:virtual void core::Component::init()	0	static
+engine.h:26:23:void __tcf_0()	0	static
+event.h:37:10:virtual void core::EmptyEvent::execute(core::AbstractEventQueue*)	4	static
+machine.h:13:10:void core::Machine::NullState()	0	static
+machine.h:16:18:virtual bool core::Machine::check_(uint8_t, core::Machine::State)	8	static
+machine.h:17:18:virtual void core::Machine::start_(core::Machine::State)	16	static
+machine.h:62:10:void core::SimpleMachine::execute(uint8_t&)	8	static
+machine.h:78:10:virtual bool core::SimpleMachine::check_(uint8_t, core::Machine::State)	16	static
+machine.h:85:10:virtual void core::SimpleMachine::start_(core::Machine::State)	16	static
+machine.h:8:7:core::Machine::~Machine()	0	static
+machine.h:23:7:core::SimpleMachine::~SimpleMachine()	0	static
+driver.h:19:2:void esp32::Driver::timerHandler_()	16	static
+event.h:49:7:core::FixedEvent<unsigned char>::~FixedEvent()	0	static
+event.h:27:7:core::EmptyEvent::~EmptyEvent()	0	static
+event.h:60:10:void core::FixedEvent<E>::execute(core::AbstractEventQueue*) [with E = unsigned char]	16	static
+machine.h:8:7:virtual core::Machine::~Machine()	8	static
+event.h:27:7:virtual core::EmptyEvent::~EmptyEvent()	8	static
+machine.h:23:7:virtual core::SimpleMachine::~SimpleMachine()	8	static
+event.h:49:7:virtual core::FixedEvent<unsigned char>::~FixedEvent()	8	static
+tcpClient-sm.cpp:11:1:void esp32::TcpClient::StartUp()	16	static
+driver.h:18:1:void __tcf_3()	0	static
+controller.h:9:1:void __tcf_2()	0	static
+engine.h:24:20:static core::Engine& core::Engine::instance()	8	static
+controller.h:9:1:static console::Controller& console::Controller::instance()	24	static
+driver.h:18:1:static esp32::Driver& esp32::Driver::instance()	24	static
+driver.h:29:7:void esp32::Driver::reboot()	24	static
+tcpClient-sm.cpp:23:1:void esp32::TcpClient::TurnOffATE()	40	static
+tcpClient-sm.cpp:50:1:void esp32::TcpClient::SetWifiMode()	40	static
+tcpClient-sm.cpp:77:1:void esp32::TcpClient::CheckWifiState()	48	static
+tcpClient-sm.cpp:106:1:void esp32::TcpClient::ConnectWifi()	40	static
+tcpClient-sm.cpp:162:1:void esp32::TcpClient::Connecting()	40	static
+tcpClient-sm.cpp:223:1:void esp32::TcpClient::WritingData()	32	static
+strand.h:83:10:void core::Strand::done()	8	static,ignoring_inline_asm
+tcpClient-sm.cpp:189:1:void esp32::TcpClient::Connected()	48	static
+tcpClient-sm.cpp:134:1:void esp32::TcpClient::GetIp()	40	static

@@ -1,0 +1,21 @@
+base.h:23:18:virtual void core::Component::init()	0	static
+engine.h:26:23:void __tcf_0()	0	static
+event.h:37:10:virtual void core::EmptyEvent::execute(core::AbstractEventQueue*)	4	static
+triple.h:26:10:void osc::Triple::idle_(uint16_t, uint16_t, uint16_t)	0	static
+triple.cpp:33:6:void osc::Triple::probing_(uint16_t, uint16_t, uint16_t)	0	static
+triple.h:12:7:osc::Triple::~Triple()	0	static
+event.h:27:7:core::EmptyEvent::~EmptyEvent()	0	static
+triple.h:12:7:virtual osc::Triple::~Triple()	8	static
+event.h:27:7:virtual core::EmptyEvent::~EmptyEvent()	8	static
+event.h:32:10:void core::EmptyEvent::post()	16	static,ignoring_inline_asm
+controller.h:9:1:void __tcf_2()	0	static
+triple.cpp:48:6:void osc::Triple::first_(uint16_t, uint16_t, uint16_t)	16	static
+controller.h:9:1:static console::Controller& console::Controller::instance()	24	static
+triple.cpp:11:6:void osc::Triple::thresholding_(uint16_t, uint16_t, uint16_t)	16	static
+data.h:24:10:void osc::Data::add(uint16_t)	20	static
+triple.cpp:57:6:void osc::Triple::adding_(uint16_t, uint16_t, uint16_t)	16	static
+data.h:41:10:bool osc::Data::flush()	24	static
+triple.cpp:75:6:void osc::Triple::c1Flush_()	8	static
+triple.cpp:87:6:void osc::Triple::c2Flush_()	8	static
+triple.cpp:99:6:void osc::Triple::c3Flush_()	8	static
+triple.cpp:4:1:osc::Triple::Triple(uint8_t, uint16_t, uint16_t)	32	static

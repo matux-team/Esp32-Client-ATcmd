@@ -1,0 +1,22 @@
+base.h:23:18:virtual void core::Component::init()	0	static
+engine.h:26:23:void __tcf_0()	0	static
+event.h:37:10:virtual void core::EmptyEvent::execute(core::AbstractEventQueue*)	4	static
+quad.h:27:10:void osc::Quad::idle_(uint16_t, uint16_t, uint16_t, uint16_t)	0	static
+quad.cpp:34:6:void osc::Quad::probing_(uint16_t, uint16_t, uint16_t, uint16_t)	0	static
+quad.h:12:7:osc::Quad::~Quad()	0	static
+event.h:27:7:core::EmptyEvent::~EmptyEvent()	0	static
+quad.h:12:7:virtual osc::Quad::~Quad()	8	static
+event.h:27:7:virtual core::EmptyEvent::~EmptyEvent()	8	static
+event.h:32:10:void core::EmptyEvent::post()	16	static,ignoring_inline_asm
+controller.h:9:1:void __tcf_1()	0	static
+quad.cpp:49:6:void osc::Quad::first_(uint16_t, uint16_t, uint16_t, uint16_t)	20	static
+controller.h:9:1:static console::Controller& console::Controller::instance()	24	static
+quad.cpp:12:6:void osc::Quad::thresholding_(uint16_t, uint16_t, uint16_t, uint16_t)	16	static
+data.h:24:10:void osc::Data::add(uint16_t)	20	static
+quad.cpp:59:6:void osc::Quad::adding_(uint16_t, uint16_t, uint16_t, uint16_t)	24	static
+data.h:41:10:bool osc::Data::flush()	24	static
+quad.cpp:79:6:void osc::Quad::c1Flush_()	8	static
+quad.cpp:91:6:void osc::Quad::c2Flush_()	8	static
+quad.cpp:103:6:void osc::Quad::c3Flush_()	8	static
+quad.cpp:115:6:void osc::Quad::c4Flush_()	8	static
+quad.cpp:4:1:osc::Quad::Quad(uint8_t, uint16_t, uint16_t, uint16_t)	40	static

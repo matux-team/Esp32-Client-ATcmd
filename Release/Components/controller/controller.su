@@ -1,0 +1,47 @@
+base.h:23:18:virtual void core::Component::init()	0	static
+engine.h:26:23:void __tcf_0()	0	static
+event.h:37:10:virtual void core::EmptyEvent::execute(core::AbstractEventQueue*)	4	static
+machine.h:13:10:void core::Machine::NullState()	0	static
+machine.h:16:18:virtual bool core::Machine::check_(uint8_t, core::Machine::State)	8	static
+machine.h:17:18:virtual void core::Machine::start_(core::Machine::State)	16	static
+machine.h:62:10:void core::SimpleMachine::execute(uint8_t&)	8	static
+machine.h:78:10:virtual bool core::SimpleMachine::check_(uint8_t, core::Machine::State)	16	static
+machine.h:85:10:virtual void core::SimpleMachine::start_(core::Machine::State)	16	static
+machine.h:8:7:core::Machine::~Machine()	0	static
+machine.h:23:7:core::SimpleMachine::~SimpleMachine()	0	static
+controller.h:9:1:device::Controller::~Controller()	0	static
+strand.h:105:17:virtual void core::Strand::pushFixed(uint8_t, uint8_t*, uint8_t)	0	static
+strand.h:110:17:virtual void core::Strand::pushBuffer(uint8_t, uint8_t*, uint8_t)	0	static
+strand.h:115:17:virtual void core::Strand::popBuffer(uint8_t*, uint8_t&)	0	static
+event.h:49:7:core::FixedEvent<esp32::TcpClient::data2Server>::~FixedEvent()	0	static
+event.h:49:7:core::FixedEvent<esp32::Driver::messageServer>::~FixedEvent()	0	static
+strand.h:13:7:core::Strand::~Strand()	0	static
+event.h:49:7:core::FixedEvent<unsigned char>::~FixedEvent()	0	static
+event.h:27:7:core::EmptyEvent::~EmptyEvent()	0	static
+event.h:60:10:void core::FixedEvent<E>::execute(core::AbstractEventQueue*) [with E = esp32::TcpClient::data2Server]	16	static
+event.h:60:10:void core::FixedEvent<E>::execute(core::AbstractEventQueue*) [with E = esp32::Driver::messageServer]	16	static
+event.h:60:10:void core::FixedEvent<E>::execute(core::AbstractEventQueue*) [with E = unsigned char]	16	static
+machine.h:8:7:virtual core::Machine::~Machine()	8	static
+event.h:49:7:virtual core::FixedEvent<esp32::TcpClient::data2Server>::~FixedEvent()	8	static
+event.h:49:7:virtual core::FixedEvent<esp32::Driver::messageServer>::~FixedEvent()	8	static
+strand.h:13:7:virtual core::Strand::~Strand()	8	static
+event.h:27:7:virtual core::EmptyEvent::~EmptyEvent()	8	static
+machine.h:23:7:virtual core::SimpleMachine::~SimpleMachine()	8	static
+controller.h:9:1:virtual device::Controller::~Controller()	8	static
+event.h:49:7:virtual core::FixedEvent<unsigned char>::~FixedEvent()	8	static
+tcpClient.h:12:1:void __tcf_5()	0	static
+controller.h:9:1:void __tcf_2()	0	static
+strand.h:105:17:virtual void core::Strand::_ZThn4_N4core6Strand9pushFixedEhPhh(uint8_t, uint8_t*, uint8_t)	0	static
+strand.h:110:17:virtual void core::Strand::_ZThn4_N4core6Strand10pushBufferEhPhh(uint8_t, uint8_t*, uint8_t)	0	static
+strand.h:115:17:virtual void core::Strand::_ZThn4_N4core6Strand9popBufferEPhRh(uint8_t*, uint8_t&)	0	static
+queue.h:45:13:uint8_t core::Queue::pop()	0	static
+strand.h:97:17:virtual void core::Strand::popFixed(uint8_t*, uint8_t)	24	static
+strand.h:138:10:void core::Strand::execute_()	16	static
+engine.h:24:20:static core::Engine& core::Engine::instance()	8	static
+strand.h:132:10:void core::Strand::timeout_()	8	static,ignoring_inline_asm
+tcpClient.h:14:2:void esp32::TcpClient::timeoutHandler_()	24	static
+controller.h:9:1:static console::Controller& console::Controller::instance()	24	static
+tcpClient.h:12:1:esp32::TcpClient::TcpClient()	104	static
+tcpClient.h:12:1:static esp32::TcpClient& esp32::TcpClient::instance()	8	static
+controller.cpp:5:6:virtual void device::Controller::init()	8	static
+controller.cpp:11:1:void device::Controller::data2ServerCommandHandler_(uint8_t, uint8_t*)	16	static

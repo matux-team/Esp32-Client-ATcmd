@@ -1,0 +1,55 @@
+base.h:23:18:virtual void core::Component::init()	0	static
+engine.h:26:23:void __tcf_0()	0	static
+event.h:37:10:virtual void core::EmptyEvent::execute(core::AbstractEventQueue*)	4	static
+machine.h:13:10:void core::Machine::NullState()	0	static
+machine.h:16:18:virtual bool core::Machine::check_(uint8_t, core::Machine::State)	8	static
+machine.h:17:18:virtual void core::Machine::start_(core::Machine::State)	16	static
+machine.h:62:10:void core::SimpleMachine::execute(uint8_t&)	8	static
+machine.h:78:10:virtual bool core::SimpleMachine::check_(uint8_t, core::Machine::State)	16	static
+machine.h:85:10:virtual void core::SimpleMachine::start_(core::Machine::State)	16	static
+machine.h:8:7:core::Machine::~Machine()	0	static
+machine.h:23:7:core::SimpleMachine::~SimpleMachine()	0	static
+driver.h:19:2:void esp32::Driver::timerHandler_()	16	static
+tcpClient.h:12:1:esp32::TcpClient::~TcpClient()	0	static
+machine.h:94:7:core::ByteMachine<unsigned char>::~ByteMachine()	0	static
+machine.h:106:10:void core::ByteMachine<T>::execute_(const T&) [with T = unsigned char]	8	static
+event.h:49:7:core::FixedEvent<unsigned char>::~FixedEvent()	0	static
+event.h:27:7:core::EmptyEvent::~EmptyEvent()	0	static
+machine.h:113:10:void core::ByteMachine<T>::start_(core::Machine::State) [with T = unsigned char]	16	static
+event.h:60:10:void core::FixedEvent<E>::execute(core::AbstractEventQueue*) [with E = unsigned char]	16	static
+machine.h:8:7:virtual core::Machine::~Machine()	8	static
+event.h:27:7:virtual core::EmptyEvent::~EmptyEvent()	8	static
+machine.h:23:7:virtual core::SimpleMachine::~SimpleMachine()	8	static
+event.h:49:7:virtual core::FixedEvent<unsigned char>::~FixedEvent()	8	static
+machine.h:94:7:virtual core::ByteMachine<unsigned char>::~ByteMachine()	8	static
+tcpClient.h:12:1:virtual esp32::TcpClient::~TcpClient()	8	static
+driver.h:10:1:void __tcf_5()	0	static
+controller.h:9:1:void __tcf_2()	0	static
+driver.h:18:1:void __tcf_3()	0	static
+queue.h:34:10:void core::Queue::push(uint8_t)	8	static
+engine.h:24:20:static core::Engine& core::Engine::instance()	8	static
+event.h:54:10:void core::FixedEvent<E>::post(const E&) [with E = unsigned char]	24	static
+controller.h:9:1:static console::Controller& console::Controller::instance()	24	static
+driver.h:18:1:static esp32::Driver& esp32::Driver::instance()	24	static
+tcpClient.cpp:9:6:virtual void esp32::TcpClient::init()	16	static
+tcpClient.cpp:20:6:void esp32::TcpClient::turnOffATE_()	0	static
+tcpClient.cpp:26:6:void esp32::TcpClient::setWifiMode_()	0	static
+tcpClient.cpp:32:6:void esp32::TcpClient::checkWifiState_()	0	static
+tcpClient.cpp:38:6:void esp32::TcpClient::connectRouter_()	0	static
+tcpClient.cpp:44:6:void esp32::TcpClient::getIp_()	0	static
+tcpClient.cpp:50:6:void esp32::TcpClient::connectServer_()	0	static
+tcpClient.cpp:56:6:void esp32::TcpClient::requestSend_(uint16_t)	32	static
+tcpClient.cpp:63:6:void esp32::TcpClient::writeData_(uint8_t*, uint16_t)	0	static
+tcpClient.cpp:68:6:void esp32::TcpClient::sendData2Server(uint8_t*, uint16_t)	24	static,ignoring_inline_asm
+tcpClient.cpp:75:1:void esp32::TcpClient::turnOffATEEspEventHandler_(bool, uint8_t*, uint16_t)	16	static
+tcpClient.cpp:87:1:void esp32::TcpClient::setWifiModeEspEventHandler_(bool, uint8_t*, uint16_t)	0	static
+tcpClient.cpp:99:1:void esp32::TcpClient::checkWifiStateEspEventHandler_(bool, uint8_t*, uint16_t)	32	static
+tcpClient.cpp:120:1:void esp32::TcpClient::connectRouterEspEventHandler_(bool, uint8_t*, uint16_t)	16	static
+tcpClient.cpp:132:1:void esp32::TcpClient::queryDeviceIdEspEventHandler_(bool, uint8_t*, uint16_t)	32	static
+tcpClient.cpp:146:1:void esp32::TcpClient::connectToServerAsClientEspEventHandler_(bool, uint8_t*, uint16_t)	0	static
+tcpClient.cpp:159:1:void esp32::TcpClient::RequestSendDataToServerEspEventHandler_(bool, uint8_t*, uint16_t)	0	static
+tcpClient.cpp:171:1:void esp32::TcpClient::SendingDataToServerEspEventHandler_(bool, uint8_t*, uint16_t)	16	static
+tcpClient.cpp:184:1:void esp32::TcpClient::msgServerHandler_(const esp32::Driver::messageServer&)	56	static
+tcpClient.cpp:206:1:void esp32::TcpClient::send2ServerHandler_(const esp32::TcpClient::data2Server&)	16	static
+tcpClient.cpp:213:1:void esp32::TcpClient::cmdTimeoutHandler_()	16	static
+tcpClient.cpp:218:1:void esp32::TcpClient::rebootedHandler_()	16	static

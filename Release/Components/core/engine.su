@@ -1,0 +1,19 @@
+event-queue.h:15:10:core::EventQueue::~EventQueue()	0	static
+engine.h:18:5:core::Engine::~Engine()	0	static
+engine.h:26:23:void __tcf_0()	0	static
+event-queue.h:15:10:virtual core::EventQueue::~EventQueue()	8	static
+engine.h:18:5:virtual core::Engine::~Engine()	8	static
+engine.cpp:73:6:virtual void core::Engine::execute(core::AbstractEventQueue*)	32	static
+event-queue.h:101:17:void core::EventQueue::push_(uint8_t)	0	static
+event-queue.h:75:17:virtual void core::EventQueue::pushBuffer(uint8_t, uint8_t*, uint8_t)	24	static,ignoring_inline_asm
+event-queue.h:52:17:virtual void core::EventQueue::pushFixed(uint8_t, uint8_t*, uint8_t)	24	static,ignoring_inline_asm
+event-queue.h:108:20:uint8_t core::EventQueue::pop_()	0	static
+event-queue.h:91:17:virtual void core::EventQueue::popBuffer(uint8_t*, uint8_t&)	24	static
+event-queue.h:67:17:virtual void core::EventQueue::popFixed(uint8_t*, uint8_t)	24	static
+engine.cpp:11:1:core::Engine::Engine()	8	static
+engine.cpp:6:1:core::Event::Event()	16	static
+engine.cpp:17:6:void core::Engine::run()	8	static,ignoring_inline_asm
+engine.cpp:26:6:void core::Engine::registerTask_(core::Task*)	0	static
+engine.cpp:32:6:void core::Engine::startTask_(core::Task*)	12	static
+engine.cpp:50:6:void core::Engine::stopTask_(core::Task*)	8	static
+engine.cpp:67:6:void core::Engine::delay(uint32_t)	12	static,ignoring_inline_asm

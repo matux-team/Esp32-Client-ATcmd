@@ -1,0 +1,17 @@
+engine.h:26:23:void __tcf_0()	0	static
+machine.h:78:10:virtual bool core::SimpleMachine::check_(uint8_t, core::Machine::State)	16	static
+machine.h:85:10:virtual void core::SimpleMachine::start_(core::Machine::State)	16	static
+driver.h:18:1:esp32::Driver::~Driver()	0	static
+driver.cpp:5:6:virtual void esp32::Driver::init()	16	static
+driver.h:18:1:virtual esp32::Driver::~Driver()	8	static
+queue.h:34:10:void core::Queue::push(uint8_t)	8	static
+queue.h:45:13:uint8_t core::Queue::pop()	0	static
+event-queue.h:29:17:void core::EventQueue::post(uint8_t)	0	static,ignoring_inline_asm
+engine.h:24:20:static core::Engine& core::Engine::instance()	8	static
+event.h:54:10:void core::FixedEvent<E>::post(const E&) [with E = unsigned char]	24	static
+driver.cpp:46:6:void esp32::Driver::receiveMsgServer_(uint8_t)	24	static
+machine.h:62:10:void core::SimpleMachine::execute(uint8_t&)	8	static
+driver.cpp:10:6:void esp32::Driver::receiveMsgRespond_(uint8_t)	24	static
+driver.cpp:62:6:void esp32::Driver::pushCommand_(uint8_t, uint16_t, uint8_t*)	40	static
+driver.cpp:77:6:void esp32::Driver::popCommand_()	24	static
+driver.cpp:90:1:void esp32::Driver::sendHandler_()	16	static
