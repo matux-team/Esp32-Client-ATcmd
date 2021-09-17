@@ -69,8 +69,7 @@ private:
 	STATE_DEF(WritingData)
 
 private:
-	Mode mode_ = Mode::TCPClient;
-	uint8_t myIpV4_[15] = {0};
+	uint8_t myIpV4_[15] = {0};				// FIXME
 	char* name_ = "ThanhNeymar1234\r\n";
 	char* dataSend2Sever_ = nullptr;
 	uint16_t length_ = 0;

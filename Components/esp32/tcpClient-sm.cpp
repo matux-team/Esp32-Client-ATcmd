@@ -16,7 +16,7 @@ STATE_BODY(esp32::TcpClient::StartUp)
 	}
 	TRANSITION_(Event::Timeout)
 	{
-		if(mode_ == Mode::TCPClient){SM_SWITCH(TurnOffATE);}
+		SM_SWITCH(TurnOffATE);
 	}
 }
 
